@@ -1,0 +1,6 @@
+scripts:
+  r: 'python src/manage.py runserver'
+  m: 'python src/manage.py makemigrations && python src/manage.py migrate'
+  s: 'python src/manage.py shell'
+  collect: 'python src/manage.py collectstatic'
+  install: 'pip install -r requirements.txt'

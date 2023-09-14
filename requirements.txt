@@ -1,0 +1,13 @@
+django==4.2
+djangorestframework
+django-cors-headers
+djangorestframework-simplejwt
+Pillow
+rav
+python-decouple
+dj-database-url
+psycopg2
+django-debug-toolbar
+redis
+celery[redis]
+flower
